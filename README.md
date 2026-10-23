@@ -15,7 +15,7 @@ Camera towers in the Ile-Alatau foothills near Almaty watch the slopes for smoke
 | `wildfire-iot/dashboard/` | Live web dashboard (MQTT over WebSocket) |
 | `wildfire-iot/config.py` | Broker, topic tree `wildfire/<device>/<kind>`, tower positions and headings |
 | `wildfire-iot/scripts/` | FIgLib download and detector evaluation |
-| `presentation/` | Midterm slides (open `index.html` in Chrome) |
+| `presentation/` | Midterm slides, online: https://baursuck.github.io/wildfire-iot/ |
 
 Offline towers are reported with the MQTT Last Will (`status = offline`).
 
