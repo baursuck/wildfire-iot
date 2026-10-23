@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.docx
+*.pptx
+wildfire-iot/.env
+wildfire-iot/.venv/
+wildfire-iot/data/
+wildfire-iot/models/
+wildfire-iot/out/
