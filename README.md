@@ -1,6 +1,6 @@
 # Wildfire IoT: early smoke detection on camera towers
 
-KBTU IoT course project (Alibek Kanatbay, Alimzhan Shayakhmetov).
+KBTU IoT course project
 
 Camera towers in the Ile-Alatau foothills near Almaty watch the slopes for smoke. Each tower runs a YOLO smoke detector next to the camera (edge computing) and sends only events over MQTT instead of streaming video. A backend collects the alarms, estimates the fire position from the tower bearings and sends a Telegram alert. A browser dashboard shows towers, alarms and weather in real time.
 
